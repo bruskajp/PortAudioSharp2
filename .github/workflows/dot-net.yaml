@@ -3,9 +3,7 @@ name: dot-net
 on:
   push:
     branches:
-      - dot-net
-    tags:
-      - '*'
+      - master
 
   workflow_dispatch:
 
